@@ -1,11 +1,11 @@
 
 import sys
 
-num1 = int(sys.argv[1])
-num2 = int(sys.argv[2])
+# num1 = int(sys.argv[1])
+# num2 = int(sys.argv[2])
 
-# num1 = int(input('Enter number 1'))
-# num2 = int(input('Enter number 2'))
+num1 = int(input('Enter number 1'))
+num2 = int(input('Enter number 2'))
 
 print(f"Prime numbers between {num1} and {num2} are: ")
 for x in range(num1, num2 + 1):
