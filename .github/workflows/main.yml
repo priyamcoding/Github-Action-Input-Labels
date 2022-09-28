@@ -21,8 +21,8 @@ on:
           required: true
 
 env:
-  firstNum : ${{github.event.inputs.num1}}
-  secondNum : ${{github.event.inputs.num2}}
+  num1 : ${{github.event.inputs.num1}}
+  num2 : ${{github.event.inputs.num2}}
   
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
