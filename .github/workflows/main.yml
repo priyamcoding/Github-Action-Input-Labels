@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
     inputs: 
         num1: 
-          description: 'Enter first number:'
+          description: 'Enter first number(1):'
           required: true
         num2:
           description: 'Enter second number:'
